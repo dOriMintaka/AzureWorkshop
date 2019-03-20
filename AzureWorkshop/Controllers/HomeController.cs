@@ -15,14 +15,14 @@ namespace AzureWorkshop.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "This is my first azure web application.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Here you can find my contacts.";
 
             return View();
         }
