@@ -15,7 +15,7 @@ namespace AzureWorkshop.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "This is my first azure web application.";
+            ViewBag.Message = "This is my second azure web application.";
 
             return View();
         }
